@@ -1,0 +1,20 @@
+@import url(/public/css/mediaQuery/mediaQueryGeneral.css);
+
+/*--------------------------------------MEDIA QUERY------------------------------------*/
+/*Mediaquery max-width:1286*/
+@media all and (max-width:1286px){
+    /*main-section-03*/
+    .boxUno{clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);}
+}
+/*Mediaquery max-width:1150*/
+@media all and (max-width:1150px){
+    /*main*/
+    main{height:2015px ;}
+     /*main-section-03*/
+     section div#div-01{ height: 1235px}
+}
+/*Mediaquery max-width:800*/
+@media all and (max-width:800px){
+    /*main*/
+    main{height:1875px ;}
+}

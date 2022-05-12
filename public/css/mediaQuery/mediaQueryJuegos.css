@@ -1,0 +1,44 @@
+@import url(/public/css/mediaQuery/mediaQueryGeneral.css);
+
+/*--------------------------------------MEDIA QUERY------------------------------------*/
+/*Mediaquery max-width:1150*/
+@media all and (max-width:1150px){
+    /*main*/
+    main{height:1335px ;}
+     /*main-section-03*/
+     section div#game{height: 70vh;}
+}
+@media all and (max-width:1025px){
+    /*main*/
+    main{height:1185px ;}
+     /*main-section-03*/
+     section div#game{height: 52vh;}
+}
+/*Mediaquery max-width:800*/
+@media all and (max-width:800px){
+    /*main*/
+    main{height:820px ;}
+}
+/*Mediaquery max-width:725*/
+@media all and (max-width:725px){
+    /*main*/
+    main{height:840px ;}
+}
+/*Mediaquery max-width:715*/
+@media all and (max-width:715px){
+    /*main*/
+    section div#game{height: 50vh;}
+    main{height:840px; margin: 2px auto;}
+}
+/*Mediaquery max-width:700*/
+@media all and (max-width:700px){
+    /*main*/
+    section div#game{height: 40vh;}
+    main{height:770px; margin: 2px auto;}
+}
+/*Mediaquery max-width:530*/
+@media all and (max-width:700px){
+    /*main*/
+    section div#game{height: 36vh;}
+    main{height:750px; margin: 2px auto;}
+}

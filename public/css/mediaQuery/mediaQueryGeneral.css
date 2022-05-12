@@ -1,0 +1,17 @@
+@import url(/public/css/mediaQuery/mediaQueryPrincipal.css);
+
+/*--------------------------------------MEDIA QUERY------------------------------------*/
+/*Mediaquery max-width:1150*/
+@media all and (max-width:1150px){
+/*main*/
+main{height:2280px ;}
+/*main-section-03*/
+section div#div-01{ height: 1505px}
+.sectionTresOne{height: 720px;}
+.sectionTresOne#tresTwo{ height: 340px;}
+}
+/*Mediaquery max-width:800*/
+@media all and (max-width:800px){
+    /*main*/
+    main{height:2130px ;}
+}

@@ -1,0 +1,32 @@
+@import url(/public/css/mediaQuery/mediaQueryGeneral.css);
+
+/*--------------------------------------MEDIA QUERY------------------------------------*/
+/*Mediaquery max-width:1286*/
+@media all and (max-width:1286px){
+    /*main-section-03*/
+    .boxUno{clip-path:  polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);}
+    div#promocion{left: 385px;}
+    div#promocionDos{left: 385px;}
+    div h6{font-size: .9rem;}
+}
+/*Mediaquery max-width:1150*/
+@media all and (max-width:1150px){
+    /*main*/
+    main{height:1715px ;}
+     /*main-section-03*/
+     section div#div-01{ height: 935px}
+     div#promocion{left: 330px;}
+    div#promocionDos{left: 330px;}
+    div h6{font-size: .8rem;}
+}
+/*Mediaquery max-width:1150*/
+@media all and (max-width:1000px){
+    div#promocion{left: 270px;}
+    div#promocionDos{left: 270px;}
+    div h6{font-size: .7rem;}
+}
+/*Mediaquery max-width:800*/
+@media all and (max-width:800px){
+    /*main*/
+    main{height:1555px ;}
+}
