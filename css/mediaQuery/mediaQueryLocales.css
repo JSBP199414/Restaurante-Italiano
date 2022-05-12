@@ -1,0 +1,51 @@
+@import url(/public/css/mediaQuery/mediaQueryGeneral.css);
+
+/*--------------------------------------MEDIA QUERY------------------------------------*/
+/*Mediaquery max-width:1286*/
+@media all and (max-width:1286px){
+    /*main-section-03*/
+    section#sectionTres div div{width: 40%;}
+    section#sectionTres div div.datos{right: 2px;}
+    #fondoUno{background-position: 0px -220px;}
+    #fondoDos{background-position: 0px -220px;}
+    #fondoTres{background-position: 0px -220px;}
+}
+/*Mediaquery max-width:1150*/
+@media all and (max-width:1150px){
+     /*main-section-03*/
+     main{height: 1200px;}
+     section#sectionTres div div{width: 39%; }
+}
+/*Mediaquery max-width:1000*/
+@media all and (max-width:1000px){
+    section#sectionTres div div{width: 38%;}
+     /*main-section-03*/
+     #fondoDos{background-position: 0px -200px;}
+     #fondoTres{background-position: 0px -130px;}
+}
+/*Mediaquery max-width:900*/
+@media all and (max-width:900px){
+    section#sectionTres div div{width: 36.5%;}
+    section#sectionTres div div.datos{right: .5px;}
+    section#sectionTres div div.datos h6{font-size: 1.5rem;}
+    #fondoUno{background-position: 0px -150px;}
+    #fondoDos{background-position: 0px -110px;}
+    #fondoTres{background-position: 0px -80px;}
+}
+/*Mediaquery max-width:800*/
+@media all and (max-width:800px){
+    /*main*/
+    main{height:1990px ;}
+    section#sectionTres div div.datos{right: 40px;}
+    section#sectionTres div{flex: 1 1 100%;}
+    #fondoUno{background-position: 0px -50px;}
+    #fondoDos{background-position: 0px -10px;}
+    #fondoTres{background-position: 0px 0px;}
+}
+/*Mediaquery max-width:600*/
+@media all and (max-width:600px){
+    section#sectionTres div div.datos{right: 20px;}
+    #fondoUno{background-position: 0px 0px;}
+    #fondoDos{background-position: 0px 0px;}
+}
+
