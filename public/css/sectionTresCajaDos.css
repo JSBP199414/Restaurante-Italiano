@@ -63,6 +63,11 @@ tbody td input{
     cursor: pointer;
     font-weight: bold;
 }
+#boxDos button:hover{
+    background-color: #DEAB76;
+    border-radius: 10px 10px 10px 10px;
+    transform: scale(1.14,1.14);
+}
 tbody td button#delete{
     background-color: rgb(249, 248, 248);
     border: 1px solid rgb(249, 248, 248);
